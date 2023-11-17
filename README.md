@@ -7,18 +7,15 @@ This GitHub project focuses on implementing a Deep Convolutional Neural Network 
 1. **Deep CNN Feature Extraction (Question 1):**
    - **Objective:** Extract features from the MNIST dataset using the ResNet-50 architecture.
    - **Implementation:** Utilize PyTorch for feature extraction and save the features and corresponding labels to 'mnist_train.mat' and 'mnist_test.mat'.
-   - **Code Files:** `extract_features.py`
 
 2. **Multinomial Logistic Regression (Question 2):**
    - **Objective:** Implement multinomial logistic regression using extracted features.
    - **Implementation:** Apply gradient descent and update parameters for training. Evaluate performance using test features.
-   - **Code Files:** `logistic_regression.py`
    - **Parameters:** Batch Size (`BATCH_SIZE`) and Learning Rate (`LR`) can be modified for experimentation.
 
 3. **Receiver Operating Characteristics (ROC) Curve (Question 3):**
    - **Objective:** Implement the ROC curve without using built-in functions.
    - **Implementation:** Calculate True Positive Rate (TPR) and False Positive Rate (FPR) for visualization.
-   - **Code Files:** `roc_curve.py`
 
 ## Setup Instructions
 
